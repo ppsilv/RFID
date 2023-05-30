@@ -67,6 +67,9 @@ void setup()
  
  
   weigand_counter = WEIGAND_WAIT_TIME;
+
+  Serial.println("\nRFID Readers setup complete...");
+
 }
  
 void loop()
